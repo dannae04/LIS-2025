@@ -7,10 +7,10 @@
 </head>
 <body>
     <?php
-    $name = "Mila";
-    $lastname = "nava";
+    $name = "Danna";
+    $lastname = "Guti";
     echo "Hola mundo";
-    $edad = 22;
+    $edad = 24;
     echo "Hola $name, tienes $edad años";
     echo 'Mi nombre es ' . $name .''. $lastname;
 
