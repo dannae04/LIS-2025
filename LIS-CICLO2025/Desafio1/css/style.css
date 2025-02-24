@@ -1,0 +1,29 @@
+.card-custom {
+    width: 18rem; /* Ancho fijo */
+    margin: 1rem; /* Margen exterior */
+    border-radius: 1rem; /* Bordes redondeados */
+   
+  }
+  
+  .card-custom img {
+    height: 150px; /* Altura fija */
+    object-fit: cover; /*Mantener proporción de la imagen */
+    border-top: aliceblue;
+   
+
+  }
+  .card-custom .card-body {
+    padding: 1rem; /* Relleno interior */
+    background-color: #f8f9fa; /* Color de fondo */
+    border-bottom-left-radius: 1rem; /* Bordes redondeados */
+    border-bottom-right-radius: 1rem; /* Bordes redondeados */
+    background-color: cornsilk;
+  }
+ .navbar-custom {
+    background-color: black; /* Color de fondo */
+  }
+
+
+
+ 
+
