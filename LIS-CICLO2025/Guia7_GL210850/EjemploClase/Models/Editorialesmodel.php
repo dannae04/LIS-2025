@@ -23,8 +23,8 @@ class Editorialesmodel extends Model{
         return $this->set_query($query,['codigo_editorial'=>$id] );
     }
 
-    public function update($editorial=array()){
-        $query="UPDATE editoriales SET nombre_editorial=:nombre_editorial, contacto=:contacto, telefono=:telefono WHERE codigo_editorial=:codigo_editorial";
-        return $this->set_query($query,$editorial);
+    public function update($editorial = array()) {
+        $query = "UPDATE editoriales SET nombre_editorial=:nombre_editorial, contacto=:contacto, telefono=:telefono WHERE codigo_editorial=:codigo_editorial";
+        return $this->set_query($query, $editorial);
     }
 }

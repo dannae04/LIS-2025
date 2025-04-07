@@ -1,9 +1,9 @@
-<?php
-abstract class Model{
-    private $host='sql202.infinityfree.com';
-    private$user='if0_38183902';
-    private $password= 'Q2aTj0TrwG';
-    private $db_name= 'if0_38183902_inventarios_libros';
+ <?php
+abstract class ModelAutores{
+    private $host='localhost';   //sql202.infinityfree.com
+    private$user='root';                //if0_38183902
+    private $password= '';             //Q2aTj0TrwG
+    private $db_name= 'inventario_libros'; //if0_38183902_inventarios_libros
     protected $conn; //Para que las clases hijas puedan acceder a la conexion
     protected function open_db(){
         try{

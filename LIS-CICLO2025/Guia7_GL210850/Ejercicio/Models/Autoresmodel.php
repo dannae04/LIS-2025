@@ -1,6 +1,6 @@
 <?php
-require_once 'Model.php';
-class Autoresmodel extends Model{
+include_once 'Model.php';
+class Autoresmodel extends ModelAutores{
     public function get($id=''){
         if($id==''){
             $query="SELECT * FROM autores";
